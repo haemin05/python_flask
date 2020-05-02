@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>'hello'</title>
+</head>
+<body>
+    <form method="POST" action="/cal">
+    <h1> Flask #3 welcome </h1>
+    <h2> welcome2</h2>
+    <input type="text" name="num">
+    <button type="submit">button</button>
+    </form>
+    <div>
+        <p>
+            {% if num == None %}
+                <h5> no input any number</h5>
+            {% else %}
+                <h6> see you again to happy </h6>
+            {% endif %}
+        </p>
+    </div>
+</body>
+</html>
