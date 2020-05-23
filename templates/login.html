@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Login intro - login page</title>
+    <meta name="viewport" content="width=device-width",
+          initial-sacle="1.0">
+</head>
+<body>
+    <div class="container">
+        <h1> Welcome My Homepage</h1>
+        <form action="" method="post". action="/">
+            <input type="text" placeholder="id"
+                   name="id" value="{{request.form.id}}">
+            <input type="text" placeholder="pwd"
+                   name="pwd" value="{{request.form.pwd}}">
+            <br>
+            <input class="btn btn-default" type="submit" value="Sign in">
+            <br>
+        </form>
+        <form action="/sing_up?" method="post">
+            <button name="forwardBtn" type="submit">Sing up</button>
+        </form>
+    </div>
+</body>
+</html>
+
+</body>
+</html>

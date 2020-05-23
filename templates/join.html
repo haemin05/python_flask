@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask login intro ㅡ login page</title>
+    <meta name="viewport" content="width=device-width",
+          initial-sacle="1.0">
+</head>
+<body>
+    <div class="container">
+        <h1> Join Page</h1>
+        <form action="" method="post">
+            <input type="text" placeholder="want_id"
+                   name="want_id" value="{{request.form.want_id}}">
+            <br>
+            <input type="text" placeholder="want_pwd"
+                   name="want_pwd" value="{{request.form.want_pwd}}">
+
+            <br>
+            <input class="btn btn-default" type="submit"
+                   value="sign up">
+            <br></form>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
