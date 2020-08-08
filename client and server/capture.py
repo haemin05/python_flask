@@ -39,6 +39,7 @@ for file in file_list:
         cv2.imshow("dst", dst)
     else:
         print('error : img size only 244 * 244')
+        break
     #cv2.imshow("dst2", dst2)
     os.remove(path + file)
     cv2.waitKey(0)
